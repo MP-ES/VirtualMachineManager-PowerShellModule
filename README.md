@@ -1,10 +1,15 @@
-# virtualmachinemanagerpsmodule
+# VirtualMachineManager-PowerShellModule
 
 Módulo do Microsoft SystemCenter Virtual Machine Manager Powershell Module Core para Windows Powershell.
 
 ## Como instalar
 
-1) Copie a pasta ```VirtualMachineManager``` para um caminho que de módulos do PowerShell (execute $env:PSModulePath para descobrir quais são esses caminhos)
+1) Descubra a lista de caminhos onde o **Windows PowerShell** procura por módulos executando o comando abaixo:
+```Powershell
+$env:PSModulePath
+```
+
+2) Copie a pasta ```VirtualMachineManager``` para um dos caminhos da lista do comando anterior
 
 2) Importe o módulo executando o seguinte comando no **Windows PowerShell**:
 
